@@ -11,7 +11,7 @@ A standalone FHEVM example demonstrating privacy-preserving pension management u
 ### Video Materials
 The submission includes comprehensive video demonstration materials:
 
-**Main Video**: `[VIDEO_DEMONSTRATION.mp4](https://streamable.com/lqikg6)`
+**Main Video**: [VIDEO_DEMONSTRATION.mp4](https://streamable.com/lqikg6)
 - Complete walkthrough of the Confidential Pension System
 - Duration: Approximately 60 seconds
 - Resolution: 1080p or higher recommended

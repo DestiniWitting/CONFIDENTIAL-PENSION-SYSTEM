@@ -4,14 +4,86 @@
 > **Category**: Build The FHEVM Example Hub
 > **Example Type**: Advanced Financial Application with Encrypted Operations
 
-A standalone FHEVM example demonstrating privacy-preserving pension management using Fully Homomorphic Encryption on Ethereum. This project showcases secure financial operations on encrypted data without revealing sensitive information.
+A comprehensive FHEVM example repository demonstrating privacy-preserving pension management with automated scaffolding, complete documentation generation, and production-ready smart contracts using Fully Homomorphic Encryption on Ethereum.
+
+## Project Overview
+
+This project provides a standalone, Hardhat-based FHEVM example hub with:
+
+- **Automated Example Generator**: CLI tools for creating standalone FHEVM example repositories
+- **Documentation Generator**: GitBook-compatible documentation generation from code
+- **Example Contracts**: Production-ready Solidity contracts demonstrating FHEVM concepts
+- **Comprehensive Tests**: Full test suites with 30+ tests and pattern documentation
+- **Base Template**: Customizable Hardhat template for new examples
+- **Developer Guide**: Complete guide for adding new examples and updating dependencies
+
+## Quick Start with Automation Tools
+
+### Generate a Standalone Example
+
+```bash
+# Generate the Confidential Pension System example
+npm run create-example confidential-pension ./my-pension-example
+
+# Navigate and run
+cd my-pension-example
+npm install
+npm run compile
+npm run test
+```
+
+### Generate Documentation
+
+```bash
+# Generate documentation for an example
+npm run generate-docs confidential-pension
+
+# Generate documentation for all examples
+npm run generate-all-docs
+```
+
+## Project Structure
+
+```
+confidential-pension-system/
+├── base-template/               # Base Hardhat template for examples
+│   ├── contracts/               # Template contract structure
+│   ├── test/                    # Template test structure
+│   ├── deploy/                  # Deployment scripts
+│   ├── hardhat.config.ts        # Hardhat configuration
+│   └── package.json             # Dependencies
+│
+├── contracts/                   # Example smart contracts
+│   └── ConfidentialPensionSystem.sol
+│
+├── test/                        # Comprehensive test suites
+│   └── ConfidentialPensionSystem.ts
+│
+├── docs/                        # Generated documentation
+│   ├── SUMMARY.md              # Documentation index
+│   └── examples/               # Individual example documentation
+│
+├── scripts/                     # Automation tools
+│   ├── create-fhevm-example.ts # Example generator
+│   ├── create-fhevm-category.ts # Category generator
+│   ├── generate-docs.ts        # Documentation generator
+│   └── README.md               # Scripts documentation
+│
+├── deploy/                      # Deployment configuration
+│   └── deploy.ts               # Hardhat deployment
+│
+├── hardhat.config.ts           # Main configuration
+├── package.json                # Dependencies and scripts
+├── tsconfig.json               # TypeScript configuration
+└── README.md                   # This file
+```
 
 ## Demonstration Video
 
 ### Video Materials
 The submission includes comprehensive video demonstration materials:
 
-**Main Video**: [VIDEO_DEMONSTRATION.mp4](https://streamable.com/lqikg6)
+**Main Video**: [VIDEO_DEMONSTRATION.mp4](https://youtu.be/4o5ZCub3XhM)
 - Complete walkthrough of the Confidential Pension System
 - Duration: Approximately 60 seconds
 - Resolution: 1080p or higher recommended

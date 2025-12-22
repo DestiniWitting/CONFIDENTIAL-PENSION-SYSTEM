@@ -17,6 +17,7 @@ This project provides a standalone, Hardhat-based FHEVM example hub with:
 - **Base Template**: Customizable Hardhat template for new examples
 - **Developer Guide**: Complete guide for adding new examples and updating dependencies
 
+
 ## Quick Start with Automation Tools
 
 ### Generate a Standalone Example
